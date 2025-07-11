@@ -16,7 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm test",
+      "pre-pull": "npm test"
     }
   }
 }
