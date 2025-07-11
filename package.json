@@ -12,10 +12,11 @@
   "description": "",
   "devDependencies": {
     "husky": "^4.3.8",
-    "jest": "^30.0.4",
-    "pre-commit": "^1.2.2"
+    "jest": "^30.0.4"
   },
-  "pre-commit": [
-    "test"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
 }
