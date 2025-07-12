@@ -6,7 +6,7 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
-    "success-message": "cross-env-shell \"echo Thank you for commiting $GIT_AUTHOR_NAME\""
+    "success-message": "for /f \"delims=\" %u in ('git config user.name') do @echo Thank you for commiting %u"
   },
   "keywords": [],
   "author": "",
