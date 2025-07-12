@@ -1,3 +1,4 @@
+// This is foo function
 const foo = require('../src/other-file');
 
 it('foo returns the expected string', () => {
