@@ -6,7 +6,7 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
-    "success-message": "echo Thank you for commiting $GIT_AUTHOR_NAME"
+    "success-message": "cross-env-shell \"echo Thank you for commiting $GIT_AUTHOR_NAME\""
   },
   "keywords": [],
   "author": "",
